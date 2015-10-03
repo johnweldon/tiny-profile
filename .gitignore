@@ -1,15 +1,30 @@
-
 build/
 
 bin/
 pkg/
 src/
 
-.ssh/
-
-.bash_history
-.bash_logout
-
-*.swp
 *~
+.bash_history
+.IntelliJIdea*
+.lesshst
 .local*
+.pastebinit.xml
+.rbtools-cookies
+*.swp
+
+.aws/
+.bazaar/
+.cache/
+.cassandra/
+.config/
+.dbus/
+.java/
+.m2/
+.npm/
+.ssh/
+.vagrant.d/
+.vnc/
+
+Desktop/
+Downloads/
