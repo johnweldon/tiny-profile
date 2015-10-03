@@ -169,6 +169,6 @@ if command -v cleanpath > /dev/null 2>&1 ; then
     export GOPATH=$(cleanpath -separator ':' $GOPATH)
     export CDPATH=.:$(cleanpath -separator ':' $CDPATH)
 else
-    echo "Missing cleanpath"
+    echo "Missing cleanpath : go get gopkg.in/johnweldon/cleanpath.v0"
 fi
 
