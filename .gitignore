@@ -1,0 +1,15 @@
+
+build/
+
+bin/
+pkg/
+src/
+
+.ssh/
+
+.bash_history
+.bash_logout
+
+*.swp
+*~
+.local*

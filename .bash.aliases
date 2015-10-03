@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#
+# User specific aliases and functions
+#
+
+# ls Aliases
+
+if [ "X${SYSTEM}" == "XLinux" ]; then
+    alias ls='ls -CF --color=auto'
+else
+    alias ls='ls -CF'
+fi
+
+alias la='ls -a'
+alias ll='ls -l'
+alias lat='ls -lat'
+alias latr='ls -latr'
+
+# MISC Aliases
+
+alias tailog='cat current | tai64nlocal | less'
+
+alias emacs='emacs -nw'
+alias tmux='tmux -2u'
