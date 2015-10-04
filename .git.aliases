@@ -1,0 +1,43 @@
+[alias]
+	s = status -s
+	d = "!git diff-index --quiet HEAD -- ; git diff --patch-with-stat"
+	di = "!d() { git diff --patch-with-stat HEAD~$1; }; git diff-index --quiet HEAD --; d"
+	p = "!git pull; git submodule foreach git pull origin master"
+	f = "!git remote update -p; git submodule foreach git remote update -p"
+	c = clone --recursive
+	ca = !git add -A && git commit -av
+	b = branch -vva
+	tags = tag -l
+	branches = branch -a
+	remotes = remote -v
+	amend = commit --amend --reuse-message=HEAD
+	reb = "!r() { git rebase -i HEAD~$1; }; r"
+	rim = "!r() { git rebase -i master; }; r"
+	contributors = shortlog --summary --numbered
+	graphviz = "!f() { echo 'digraph git {' ; git log --pretty='format:  %h -> { %p }' \"$@\" | sed 's/[0-9a-f][0-9a-f]*/\"&\"/g' ; echo '}'; }; f"
+	br = branch
+	ci = commit
+	co = checkout
+	rb = rebase
+	sm = submodule
+	in = log HEAD..origin/master
+	out = log origin/master..HEAD
+	st = status
+	sts = status -s -b
+	alias = config --get-regexp ^alias
+	l = log -n 20 --graph
+	ll = log
+	la = log --all
+	lg = log --graph
+	lga = log --all --graph
+	ls = ls-files
+	lsm = ls-files -m
+	lsc = diff --cached --name-only --relative
+	lsu = diff --name-only --diff-filter=U --relative
+	un = ls-files -o --exclude-standard
+	diff = difftool --minimal
+	ldiff = diff HEAD^..HEAD --minimal -w
+	lldiff = diff HEAD^^..HEAD^ --minimal -w
+	llldiff = diff HEAD^^^..HEAD^^ --minimal -w
+	lllldiff = diff HEAD^^^^..HEAD^^^ --minimal -w
+	ldf = "!f() { git diff --name-only \"$(git merge-base HEAD ${1:-master})\"; }; f"
