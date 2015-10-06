@@ -19,12 +19,15 @@ src/
 .cassandra/
 .config/
 .dbus/
+.gconf/
+.ICEauthority
 .java/
 .m2/
 .npm/
 .ssh/
 .vagrant.d/
 .vnc/
+.Xauthority
 
 Desktop/
 Downloads/
