@@ -2,11 +2,13 @@
 
 # If not running interactively, don't do anything
 case $- in
-    *i*) ;;
-      *) return;;
+	*i*) ;;
+	  *) return;;
 esac
 
-command -v xrdb >/dev/null 2>&1 && if [ "$DISPLAY" ]; then xrdb -merge ~/.Xresources ; fi
+[ -f "${HOME}/.Xresources" ] && command -v xrdb >/dev/null 2>&1 && if [ "$DISPLAY" ]; then 
+	xrdb -merge "${HOME}/.Xresources" ;
+fi
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
