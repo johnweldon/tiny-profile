@@ -12,11 +12,11 @@
 
 
 [url "git@github.com:"]
-	insteadOf = https://github.com/
+	#insteadOf = https://github.com/
 	insteadOf = git://github.com/
 
 [url "git@bitbucket.org:"]
-	insteadOf = https://bitbucket.org/
+	#insteadOf = https://bitbucket.org/
 	insteadOf = git://bitbucket.org/
 
 
