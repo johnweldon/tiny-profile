@@ -1,12 +1,12 @@
 [submodule ".vim/bundle/vim-sensible"]
 	path = .vim/bundle/vim-sensible
-	url = git://github.com/tpope/vim-sensible.git
+	url = https://github.com/tpope/vim-sensible.git
 [submodule ".vim/bundle/vim-go"]
 	path = .vim/bundle/vim-go
-	url = git://github.com/fatih/vim-go.git
+	url = https://github.com/fatih/vim-go.git
 [submodule ".vim/bundle/editorconfig-vim"]
 	path = .vim/bundle/editorconfig-vim
-	url = git://github.com/editorconfig/editorconfig-vim
+	url = https://github.com/editorconfig/editorconfig-vim
 [submodule ".vim/bundle/vim-godef"]
 	path = .vim/bundle/vim-godef
-	url = git://github.com/dgryski/vim-godef.git
+	url = https://github.com/dgryski/vim-godef.git
