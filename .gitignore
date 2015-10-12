@@ -6,6 +6,7 @@ src/
 
 *~
 .bash_history
+.curlrc
 .IntelliJIdea*
 .lesshst
 .local*
