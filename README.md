@@ -22,4 +22,4 @@ unless you do intend to grant me ssh access to your host.
 
 Don't do this unless you've read the script, and approve what it's doing:
 
-`bash <(curl -s https://github.com/johnweldon/tiny-profile/blob/master/tiny-profile-init.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/johnweldon/tiny-profile/master/tiny-profile-init.sh)`
