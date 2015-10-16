@@ -6,13 +6,20 @@ src/
 
 *~
 .bash_history
+.bash_logout
 .curlrc
+.gnome
 .IntelliJIdea*
 .lesshst
 .local*
+.no-devstack
 .pastebinit.xml
 .rbtools-cookies
 *.swp
+.Xauthority
+.Xresources
+
+Vagrantfile
 
 .aws/
 .bazaar/
@@ -24,11 +31,15 @@ src/
 .ICEauthority
 .java/
 .m2/
+.mozilla/
+.node-gyp/
 .npm/
+.pki/
 .ssh/
+.vagrant/
 .vagrant.d/
 .vnc/
-.Xauthority
 
 Desktop/
 Downloads/
+idea-IU*/
