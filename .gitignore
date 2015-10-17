@@ -7,7 +7,9 @@ src/
 *~
 .bash_history
 .bash_logout
+.bzr.log
 .curlrc
+.dbshell
 .gnome
 .IntelliJIdea*
 .lesshst
@@ -18,6 +20,8 @@ src/
 *.swp
 .Xauthority
 .Xresources
+.xscreensaver
+.xsession*
 
 Vagrantfile
 
@@ -25,21 +29,34 @@ Vagrantfile
 .bazaar/
 .cache/
 .cassandra/
+.compiz/
 .config/
 .dbus/
+.dropbox/
+.dropbox-dist/
 .gconf/
+.gem/
+.gstreamer*/
 .ICEauthority
+.irssi/
 .java/
+.juju/
+.kde/
 .m2/
 .mozilla/
 .node-gyp/
 .npm/
 .pki/
 .ssh/
+.synergy/
+.thunderbird/
 .vagrant/
 .vagrant.d/
 .vnc/
+.znc/
 
 Desktop/
 Downloads/
 idea-IU*/
+Dropbox/
+IdeaProjects/
