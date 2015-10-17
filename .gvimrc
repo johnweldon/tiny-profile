@@ -10,7 +10,7 @@ set background=dark
 
 
 if has("gui_win32")
-    set guifont=Source_Code_Pro:h14,Consolas:h14,Anonymous_Pro:h14,Envy_Code_R:h14,Lucida_Console:h14
+    set guifont=Source_Code_Pro:h12,Consolas:h12,Anonymous_Pro:h12,Envy_Code_R:h12,Lucida_Console:h12
     colorscheme koehler
 elseif has("gui_macvim")
     set guifont=Monaco:h16,Menlo:h16,Andale_Mono:h16

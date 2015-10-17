@@ -24,8 +24,15 @@ src/
 .xscreensaver
 .xsession*
 
+AzureStorageEmulator*
+NTUSER.DAT*
+ntuser.ini
 Vagrantfile
+WAStorageEmulator*
 
+.AndroidStudio*/
+.android/
+.atom/
 .aws/
 .bazaar/
 .cache/
@@ -37,6 +44,7 @@ Vagrantfile
 .dropbox-dist/
 .gconf/
 .gem/
+.gimp*/
 .gnupg/
 .gstreamer*/
 .ICEauthority
@@ -48,17 +56,37 @@ Vagrantfile
 .mozilla/
 .node-gyp/
 .npm/
+.nuget/
 .pki/
+.PyCharm*/
 .ssh/
 .synergy/
+.thumbnails/
 .thunderbird/
 .vagrant/
 .vagrant.d/
+.VirtualBox/
 .vnc/
+.WebStorm*/
 .znc/
 
+AppData/
+Contacts/
 Desktop/
+Documents/
 Downloads/
+Favorites/
+Links/
+Music/
+OneDrive/
+Pictures/
+Searches/
+SkyDrive/
+Tracing/
+Videos/
+Web\ Essentials/
 idea-IU*/
 Dropbox/
 IdeaProjects/
+ncftp/
+vimfiles/
