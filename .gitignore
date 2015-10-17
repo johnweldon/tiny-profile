@@ -37,6 +37,7 @@ Vagrantfile
 .dropbox-dist/
 .gconf/
 .gem/
+.gnupg/
 .gstreamer*/
 .ICEauthority
 .irssi/
