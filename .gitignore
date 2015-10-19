@@ -1,4 +1,5 @@
 build/
+build
 
 bin/
 pkg/
@@ -17,6 +18,7 @@ src/
 .lpad_oauth
 .no-devstack
 .pastebinit.xml
+.profile
 .rbtools-cookies
 *.swp
 .Xauthority
