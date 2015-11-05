@@ -88,7 +88,7 @@ fi
 # Time Zone. sometimes useful
 #
 
-export TZ=PST8PDT 
+export TZ=MST7 
 
 function setprompt {
 
