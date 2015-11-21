@@ -22,6 +22,8 @@
 .curlrc
 .dbshell
 .dbus/
+.docker
+.docker/
 .dockercfg
 .dropbox-dist/
 .dropbox/
