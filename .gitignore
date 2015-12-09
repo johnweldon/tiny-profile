@@ -1,3 +1,6 @@
+#1#
+#2#  %!LC_ALL=c sort
+#3#
 *.swp
 *~
 .AndroidStudio*/
@@ -42,10 +45,12 @@
 .lpad_oauth
 .m2/
 .mozilla/
+.netrwhist
 .no-devstack
 .node-gyp/
 .npm/
 .nuget/
+.oracle_jre_usage/
 .pastebinit.xml
 .pki/
 .profile
@@ -57,6 +62,7 @@
 .vagrant.d/
 .vagrant/
 .vnc/
+.w3m/
 .xscreensaver
 .xsession*
 .znc/
