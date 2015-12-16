@@ -35,6 +35,7 @@
 .gimp*/
 .gnome
 .gnupg/
+.gradle/
 .gstreamer*/
 .irssi/
 .java/
