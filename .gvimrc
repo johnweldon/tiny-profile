@@ -1,5 +1,6 @@
 
 set guioptions=c
+set guifont=Monospace\ 12
 
 set columns=132
 set lines=50
@@ -16,7 +17,7 @@ elseif has("gui_macvim")
     set guifont=Monaco:h16,Menlo:h16,Andale_Mono:h16
     colorscheme macvim
 elseif has("x11")
-    set guifont="Ubuntu Mono 12"
+    set guifont=Monospace\ 12
     colorscheme koehler
 else
     colorscheme vividchalk
