@@ -100,3 +100,4 @@ pkg/
 src
 src/
 vimfiles/
+_nvimlog
