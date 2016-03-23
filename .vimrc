@@ -30,7 +30,8 @@ set number
 
 set background=dark
 set viminfo=""
-set vb t_vb="<Esc>|10f"
+set visualbell t_vb="<Esc>|1f"
+set noerrorbells
 
 if filereadable(findfile("~/.local.vimrc"))
     source ~/.local.vimrc
