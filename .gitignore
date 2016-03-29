@@ -62,6 +62,7 @@
 .thunderbird/
 .vagrant.d/
 .vagrant/
+.viminfo
 .vnc/
 .w3m/
 .xscreensaver
@@ -88,6 +89,7 @@ Vagrantfile
 Videos/
 WAStorageEmulator*
 Web\ Essentials/
+_nvimlog
 bin
 bin/
 build
@@ -100,4 +102,3 @@ pkg/
 src
 src/
 vimfiles/
-_nvimlog
