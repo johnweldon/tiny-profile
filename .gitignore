@@ -37,6 +37,7 @@
 .gnupg/
 .gradle/
 .gstreamer*/
+.hushlogin
 .irssi/
 .java/
 .juju/
