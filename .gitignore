@@ -57,6 +57,7 @@
 .profile
 .rbtools-cookies
 .ssh/
+.sudo_as_admin_successful
 .synergy/
 .thumbnails/
 .thunderbird/
