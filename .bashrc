@@ -149,7 +149,7 @@ setprompt
 
 umask 002
 
-export GREP_OPTIONS="--exclude-dir=.git --color=auto"
+alias grep="grep --exclude-dir=.git --color=auto"
 
 if command -v vim > /dev/null 2>&1 ; then
 		export EDITOR=vim
