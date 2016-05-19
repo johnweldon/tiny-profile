@@ -7,9 +7,6 @@
 [submodule ".vim/bundle/editorconfig-vim"]
 	path = .vim/bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim
-[submodule ".vim/bundle/vim-godef"]
-	path = .vim/bundle/vim-godef
-	url = https://github.com/dgryski/vim-godef.git
 [submodule ".vim/bundle/vim-fugitive"]
 	path = .vim/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
