@@ -21,7 +21,7 @@ type -p keychain &&
 
 if [ "X${MSYSTEM}" == "XMINGW32" ]; then 
     # cygwin or msys - don't do the cleanpath operation because of wierd path variables
-	return
+    exit
 fi
 
 command -v cleanpath >/dev/null 2>&1 && PATHPROC="$(command -v cleanpath)"
