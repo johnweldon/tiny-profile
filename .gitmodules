@@ -12,4 +12,4 @@
 	url = https://github.com/tpope/vim-fugitive.git
 [submodule ".vim/bundle/vim-ps1"]
 	path = .vim/bundle/vim-ps1
-	url = git@github.com:PProvost/vim-ps1
+	url = https://github.com/PProvost/vim-ps1
