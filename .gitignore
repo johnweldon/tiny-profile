@@ -4,9 +4,12 @@
 *.swp
 *~
 .AndroidStudio*/
+.CFUserTextEncoding
+.DS_Store
 .ICEauthority
 .IntelliJIdea*
 .PyCharm*/
+.Trash/
 .VirtualBox/
 .WebStorm*/
 .Xauthority
@@ -16,7 +19,10 @@
 .aws/
 .bash_history
 .bash_logout
+.bash_sessions/
 .bazaar/
+.brew/
+.bundle/
 .bzr.log
 .cache/
 .cassandra/
@@ -57,6 +63,8 @@
 .pki/
 .profile
 .rbtools-cookies
+.rnd
+.serverauth.*
 .ssh/
 .sudo_as_admin_successful
 .synergy/
@@ -71,6 +79,7 @@
 .xsession*
 .znc/
 AppData/
+Applications/
 AzureStorageEmulator*
 Contacts/
 Desktop/
@@ -79,11 +88,13 @@ Downloads/
 Dropbox/
 Favorites/
 IdeaProjects/
+Library/
 Links/
 Music/
 NTUSER.DAT*
 OneDrive/
 Pictures/
+Public/
 Searches/
 SkyDrive/
 Tracing/
@@ -92,15 +103,11 @@ Videos/
 WAStorageEmulator*
 Web\ Essentials/
 _nvimlog
-bin
 bin/
-build
 build/
 idea-IU*/
 ncftp/
 ntuser.ini
-pkg
 pkg/
-src
 src/
 vimfiles/
