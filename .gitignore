@@ -79,9 +79,11 @@
 .xsession*
 .znc/
 AppData/
+Application Data/
 Applications/
 AzureStorageEmulator*
 Contacts/
+Cookies/
 Desktop/
 Documents/
 Downloads/
@@ -91,12 +93,16 @@ IdeaProjects/
 Library/
 Links/
 Music/
+My Documents/
 NTUSER.DAT*
 OneDrive/
 Pictures/
 Public/
+Recent/
 Searches/
+SendTo/
 SkyDrive/
+Start Menu/
 Tracing/
 Vagrantfile
 Videos/
