@@ -65,6 +65,7 @@
 .rbtools-cookies
 .rnd
 .serverauth.*
+.sqlite_history
 .ssh/
 .sudo_as_admin_successful
 .synergy/
@@ -74,6 +75,7 @@
 .vagrant/
 .viminfo
 .vnc/
+.vscode/
 .w3m/
 .xscreensaver
 .xsession*
