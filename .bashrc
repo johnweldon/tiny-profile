@@ -3,7 +3,7 @@
 # If not running interactively, don't do anything
 case $- in
   *i*) ;;
-    *) exit ;;
+    *) return ;;
 esac
 
 [ -f "${HOME}/.Xresources" ] && command -v xrdb >/dev/null 2>&1 && if [ "$DISPLAY" ]; then 
