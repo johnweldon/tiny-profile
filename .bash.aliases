@@ -18,9 +18,6 @@ alias latr='ls -latr'
 
 # MISC Aliases
 
-alias tailog='cat current | tai64nlocal | less'
-
-alias emacs='emacs -nw'
 alias tmux='tmux -2u'
 
 alias where='for ix in ${!DIRSTACK[@]}; do echo ${DIRSTACK[$ix]}; done'

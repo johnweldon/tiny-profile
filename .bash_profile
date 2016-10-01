@@ -2,18 +2,8 @@
 
 export BASH_ENV="${HOME}/.bashrc"
 if [ -f $BASH_ENV ]; then
-	. $BASH_ENV
+  . $BASH_ENV
 fi
-
-#
-# ssh agent setup
-#
-
-type -p keychain &&
-{
-  keychain id_rsa
-  . ~/.keychain/$(hostname)-sh
-}
 
 # 
 # final clean up of PATH
@@ -30,6 +20,4 @@ command -v cleanpath >/dev/null 2>&1 && PATHPROC="$(command -v cleanpath)"
 
 
 export PATH=$( ${PATHPROC} "${HOME}/bin:${PATH}:/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin")
-
-
 
