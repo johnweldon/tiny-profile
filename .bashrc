@@ -62,7 +62,7 @@ command set -o noclobber
 
 [ -f "${HOME}/.lesskey" ] && lesskey
 
-export LC_ALL="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8" >/dev/null 2>&1
 export LANG="en_US.UTF-8"
 
 case $(realpath $(command -v less)) in
@@ -154,11 +154,9 @@ setprompt
 umask 002
 
 case $(realpath $(command -v grep)) in
-  *busybox)
-    ;;
-  *)
-    alias grep="grep --exclude-dir=.git --color=auto"
-    ;;
+  *busybox) ;;
+  *grep) alias grep="grep --exclude-dir=.git --color=auto" ;;
+  *) ;;
 esac
 
 if command -v vim > /dev/null 2>&1 ; then
