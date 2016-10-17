@@ -40,6 +40,7 @@
 .gem/
 .gimp*/
 .gnome
+.gnucash/
 .gnupg/
 .gradle/
 .gstreamer*/
