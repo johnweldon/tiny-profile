@@ -13,3 +13,6 @@
 [submodule ".vim/bundle/vim-ps1"]
 	path = .vim/bundle/vim-ps1
 	url = https://github.com/PProvost/vim-ps1
+[submodule ".vim/bundle/vim-scala"]
+	path = .vim/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
