@@ -36,6 +36,7 @@
 .dockercfg
 .dropbox-dist/
 .dropbox/
+.fonts/
 .gconf/
 .gem/
 .gimp*/
@@ -53,6 +54,7 @@
 .local*
 .lpad_oauth
 .m2/
+.magick/
 .mozilla/
 .netrwhist
 .no-devstack
