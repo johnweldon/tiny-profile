@@ -41,6 +41,10 @@
 [color]
 	ui = auto
 
+[diff]
+  renameLimit = 5000
+  renames = copy
+  mnemonicprefix = true
 
 [color "branch"]
 	current = yellow reverse
