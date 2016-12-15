@@ -21,3 +21,6 @@ alias latr='ls -latr'
 alias tmux='tmux -2u'
 
 alias where='for ix in ${!DIRSTACK[@]}; do echo ${DIRSTACK[$ix]}; done'
+
+alias dps="docker ps --format '{{ printf \"%-30s %-20s %s\" .Names .Status .Ports }}'"
+
