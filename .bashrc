@@ -65,7 +65,7 @@ command set -o noclobber
 export LC_ALL="en_US.UTF-8" >/dev/null 2>&1
 export LANG="en_US.UTF-8"
 
-case $(realpath $(command -v less)) in
+case $(realpath "$(command -v less)") in
   *busybox)
     export GIT_PAGER=
     export LESS=
@@ -153,7 +153,7 @@ setprompt
 
 umask 002
 
-case $(realpath $(command -v grep)) in
+case $(realpath "$(command -v grep)") in
   *busybox) ;;
   *grep) alias grep="grep --exclude-dir=.git --color=auto" ;;
   *) ;;
