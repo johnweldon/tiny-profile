@@ -89,12 +89,6 @@ else
   export LSCOLORS=Gxfxbxdxcxegedabagacad
 fi
 
-#
-# Time Zone. sometimes useful, should probably be in .local.bashrc
-#
-
-export TZ='America/Phoenix'
-
 function setprompt {
   local escon="\[\033["
   local escoff="\]"
