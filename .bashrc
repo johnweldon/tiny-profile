@@ -90,10 +90,10 @@ else
 fi
 
 #
-# Time Zone. sometimes useful
+# Time Zone. sometimes useful, should probably be in .local.bashrc
 #
 
-export TZ=MST7
+export TZ='America/Phoenix'
 
 function setprompt {
   local escon="\[\033["
