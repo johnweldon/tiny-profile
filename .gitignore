@@ -40,6 +40,7 @@
 .gconf/
 .gem/
 .gimp*/
+.gitcookies
 .gnome
 .gnucash/
 .gnupg/
