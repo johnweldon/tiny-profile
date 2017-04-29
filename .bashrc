@@ -160,19 +160,16 @@ else
   alias vim=vi
 fi
 
-export GOPATH=${GOPATH:=$HOME}
-export CDPATH=.:${GOPATH//://src:}/src:$CDPATH
-export PATH=$PATH:${GOPATH//://bin:}/bin
-
 #
 # finally, clean up path
 #
 
+export PATH="${PATH}:${HOME}/bin:$(go env GOPATH)/bin"
 if command -v cleanpath > /dev/null 2>&1 ; then
   export PATH=$(cleanpath -separator ':' $PATH)
   export GOPATH=$(cleanpath -separator ':' $GOPATH)
   export CDPATH=.:$(cleanpath -separator ':' $CDPATH)
 else
-  echo "Missing cleanpath : go get github.com/johnweldon/cleanpath"
+  echo "Missing cleanpath"
 fi
 
