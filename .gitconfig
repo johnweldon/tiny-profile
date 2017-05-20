@@ -22,7 +22,7 @@
 
 
 [format]
-	pretty = %C(bold red)%h%Creset %C(white)%>(10,trunc)%ar%Creset %Cgreen%<(10,trunc)%aN%Creset %C(bold normal)%<(100,mtrunc)%s%Creset %C(auto)%d%Creset
+	pretty = %C(bold red)%h%Creset %C(white)%>(8,trunc)%ar%Creset %Cgreen%<(12,trunc)%aN%Creset %C(bold normal)%<(30)%s%Creset %C(auto)%d%Creset
 
 
 [log]
