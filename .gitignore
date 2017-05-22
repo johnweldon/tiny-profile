@@ -57,6 +57,7 @@
 .m2/
 .magick/
 .mozilla/
+.netrc
 .netrwhist
 .no-devstack
 .node-gyp/
