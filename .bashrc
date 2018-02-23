@@ -164,12 +164,13 @@ fi
 # finally, clean up path
 #
 
-export PATH="${PATH}:${HOME}/bin:$(go env GOPATH)/bin"
+export GOPATH="${GOPATH:-$(go env GOPATH)}"
 export CDPATH="${CDPATH:-${HOME}}:${GOPATH//://src:/}/src"
+export PATH="${PATH}:${HOME}/bin:${GOPATH}/bin"
 if command -v cleanpath > /dev/null 2>&1 ; then
-  export PATH="$(cleanpath -separator ':' "${PATH}")"
-  export GOPATH="$(cleanpath -separator ':' "${GOPATH}")"
-  export CDPATH=".:$(cleanpath -separator ':' "${CDPATH}")"
+  export PATH=$(cleanpath -separator ':' "$PATH")
+  export GOPATH=$(cleanpath -separator ':' "$GOPATH")
+  export CDPATH=.:$(cleanpath -separator ':' "$CDPATH")
 else
   echo "Missing cleanpath"
 fi
