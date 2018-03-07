@@ -67,6 +67,7 @@
 .pastebinit.xml
 .pki/
 .profile
+.python_history
 .rbtools-cookies
 .rnd
 .serverauth.*
