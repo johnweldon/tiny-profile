@@ -51,6 +51,7 @@
 .java/
 .juju/
 .kde/
+.kube/
 .lesshst
 .local*
 .lpad_oauth
@@ -86,6 +87,7 @@
 .xscreensaver
 .xsession*
 .znc/
+/build
 AppData/
 Application Data/
 Applications/

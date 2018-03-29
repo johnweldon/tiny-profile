@@ -19,5 +19,5 @@ command -v cleanpath >/dev/null 2>&1 && PATHPROC="$(command -v cleanpath)"
 [[ -z "${PATHPROC}" ]] && { echo "Warning: cleanpath missing"; echo "PATH=$PATH"; PATHPROC="echo"; }
 
 
-export PATH=$( ${PATHPROC} "${HOME}/bin:${PATH}:/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin")
+export PATH=$( ${PATHPROC} -separator ":" "${HOME}/bin:${PATH}:/sbin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin")
 
