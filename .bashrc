@@ -160,6 +160,15 @@ else
   alias vim=vi
 fi
 
+[ -f "${HOME}/.ssh/agent.pid" ] && source "${HOME}/.ssh/agent.pid" 2>&1 > /dev/null
+
+if [ -z ${SSH_AGENT_PID} ] || [ "$(ps -p $SSH_AGENT_PID -o comm=)" != "ssh-agent" ] ; then
+  echo "cleanup and restart ssh-agent"
+  [ -f ${HOME}/.ssh/agent.pid ] && rm -f "${HOME}/.ssh/agent.pid"
+  ssh-agent > "${HOME}/.ssh/agent.pid"
+  source "${HOME}/.ssh/agent.pid"
+fi
+
 #
 # finally, clean up path
 #

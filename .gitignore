@@ -84,6 +84,7 @@
 .vnc/
 .vscode/
 .w3m/
+.wget-hsts
 .xscreensaver
 .xsession*
 .znc/
