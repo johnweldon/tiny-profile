@@ -2,6 +2,7 @@
 #2#  %!LC_ALL=c sort
 #3#
 *.swp
+*.yaml
 *~
 .AndroidStudio*/
 .CFUserTextEncoding
