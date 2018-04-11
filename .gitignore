@@ -38,6 +38,7 @@
 .dropbox-dist/
 .dropbox/
 .fonts/
+.fossil*
 .gconf/
 .gem/
 .gimp*/
