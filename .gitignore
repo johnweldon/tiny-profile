@@ -76,6 +76,7 @@
 .serverauth.*
 .sqlite_history
 .ssh/
+.subversion/
 .sudo_as_admin_successful
 .synergy/
 .thumbnails/
