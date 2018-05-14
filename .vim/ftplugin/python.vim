@@ -3,6 +3,11 @@ if exists("b:did_ftplugin")
 endif
 let b:did_ftplugin = 1
 
+syn match BadWhitespace /\s\+$/
+au BufNewFile,BufRead *.py se ts=4 sts=4 sw=4 tw=79 et ai ff=unix
+
+set encoding=utf-8
+
 nmap <buffer> <LocalLeader>r <Plug>FormatPython
 nmap <buffer> <script> <Plug>FormatPython <SID>Format
 nmenu <script> Plugin.Format\ Python <SID>Format
