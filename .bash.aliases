@@ -5,7 +5,7 @@
 
 # ls Aliases
 
-if [ "X${SYSTEM}" == "XLinux" ]; then
+if [ "X${CURRENT_SYSTEM}" == "XLinux" ]; then
     alias ls='ls -CF --color=auto'
 else
     alias ls='ls -CF'
