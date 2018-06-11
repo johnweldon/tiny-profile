@@ -3,6 +3,7 @@
   st = status
   sts = status -s -b
   sh = "!f() { git show --pretty=fuller --minimal --word-diff -w ${1:-HEAD}; }; f"
+  dc = diff --cached --minimal --word-diff -w
 
   d = "!git diff-index --quiet HEAD -- ; git diff --patch-with-stat"
   dw = "!git diff-index --quiet HEAD -- ; git diff --word-diff=color --patch-with-stat"
