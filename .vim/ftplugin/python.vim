@@ -4,7 +4,7 @@ endif
 let b:did_ftplugin = 1
 
 syn match BadWhitespace /\s\+$/
-au BufNewFile,BufRead *.py se ts=4 sts=4 sw=4 tw=79 et ai ff=unix
+setlocal ts=4 sts=4 sw=4 tw=79 et ai ff=unix
 
 set encoding=utf-8
 
