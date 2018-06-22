@@ -5,9 +5,9 @@ let b:did_ftplugin = 1
 
 setlocal ts=4 sts=4 sw=4 tw=79 et ai ff=unix
 
-nmap <buffer> <LocalLeader>r <Plug>FormatC
-nmap <buffer> <script> <Plug>FormatC <SID>Format
-nmenu <script> Plugin.Format\ C <SID>Format
+nmap <buffer> <LocalLeader>r <Plug>FormatCPP
+nmap <buffer> <script> <Plug>FormatCPP <SID>Format
+nmenu <script> Plugin.Format\ CPP <SID>Format
 nmap <SID>Format :call <SID>Format()<CR>
 
 function! s:Format()
