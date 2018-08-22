@@ -5,6 +5,10 @@ if [ -f $BASH_ENV ]; then
   . $BASH_ENV
 fi
 
+if command -v pyenv > /dev/null 2>&1 ; then
+  eval "$(pyenv init -)"
+fi
+
 # 
 # final clean up of PATH
 #
