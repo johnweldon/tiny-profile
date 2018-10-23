@@ -3,11 +3,12 @@ if has('python3')
   silent! python3 1
 endif
 
+"pathogen
+filetype off
 call pathogen#infect()
-Helptags
-
-syntax on
+call pathogen#helptags()
 filetype plugin indent on
+syntax on
 
 let g:godef_split=0
 let g:godef_same_file_in_same_window=1
