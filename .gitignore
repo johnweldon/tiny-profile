@@ -133,3 +133,4 @@ ntuser.ini
 pkg/
 src/
 vimfiles/
+.emacs
